@@ -63,6 +63,7 @@ export const DATA = {
       },
     },
   },
+  resumeUrl: "https://drive.google.com/file/d/1JCKVrUhUcejdHObKn3CAtKGdz8YOUZIm/view?usp=sharing", // Replace with your actual Google Drive share link
   education: [
     {
       school: "Dr. A.P.J. Abdul Kalam Technical University",
