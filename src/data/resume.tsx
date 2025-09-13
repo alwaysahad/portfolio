@@ -63,7 +63,7 @@ export const DATA = {
       },
     },
   },
-  resumeUrl: "https://drive.google.com/file/d/1JCKVrUhUcejdHObKn3CAtKGdz8YOUZIm/view?usp=sharing", // Replace with your actual Google Drive share link
+  resumeUrl: "https://drive.google.com/file/d/1hNaKXEYvfD7oHlkCcoTeqiIsZhMVs7rt/view?usp=sharing", 
   education: [
     {
       school: "Dr. A.P.J. Abdul Kalam Technical University",
@@ -133,6 +133,33 @@ export const DATA = {
       image: "/den-den-mushi.png",
       video:
       "",
+    },
+    {
+      title: "Dapp",
+      href: "dapp-tau-roan.vercel.app/",
+      dates: "April 2025 - April 2025",
+      active: true,
+      description:
+      "This is a starter project for building a dapp on the Solana blockchain.",
+      technologies: [
+        "React.js",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "dapp-tau-roan.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/alwaysahad/dapp",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/dapp.png",
+      video:
+        "",
     },
     {
       title: "Caribou",
