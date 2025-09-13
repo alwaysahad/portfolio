@@ -6,7 +6,6 @@ import { Avatar, AvatarFallback, AvatarImage } from "../components/ui/avatar";
 import { Badge } from "../components/ui/badge";
 import { Button } from "../components/ui/button";
 import { DATA } from "../data/resume";
-import Link from "next/link";
 import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
@@ -22,7 +21,7 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
-                text={`${DATA.name.split(" ")[1]} here`}
+                text={`${DATA.name.split(" ")[1]}`}
               />
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"

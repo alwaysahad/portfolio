@@ -77,7 +77,7 @@ export const DATA = {
   projects: [
     {
       title: "SenpaiGpt",
-      href: "https://caribou-app.vercel.app/",
+      href: "https://senpai-gpt.vercel.app/",
       dates: "September 2025 - present",
       active: true,
       description:
@@ -92,7 +92,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "senpai-gpt.vercel.app/",
+          href: "https://senpai-gpt.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -107,8 +107,8 @@ export const DATA = {
     },
     {
       title: "Den-Den-Mushi",
-      href: "https://caribou-app.vercel.app/",
-      dates: "August 2025 - present",
+      href: "https://den-den-mushi-frontend.onrender.com/",
+      dates: "August '25",
       active: true,
       description:
       "A real-time room-based chat app.",
@@ -136,7 +136,7 @@ export const DATA = {
     },
     {
       title: "Dapp",
-      href: "dapp-tau-roan.vercel.app/",
+      href: "https://dapp-tau-roan.vercel.app/",
       dates: "April 2025 - April 2025",
       active: true,
       description:
@@ -148,7 +148,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "dapp-tau-roan.vercel.app/",
+          href: "https://dapp-tau-roan.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
