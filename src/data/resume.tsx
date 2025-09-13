@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Abdul Ahad",
@@ -58,7 +58,7 @@ export const DATA = {
         name: "Send Email",
         url: "#",
         icon: Icons.email,
-
+        
         navbar: false,
       },
     },
@@ -75,12 +75,71 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Caribou",
+      title: "SenpaiGpt",
       href: "https://caribou-app.vercel.app/",
-      dates: "April 2025 - present",
+      dates: "September 2025 - present",
       active: true,
       description:
-        "CRUD application for storing files online.",
+        "AI-powered chatbot application that uses Web Search.",
+      technologies: [
+        "Javascript",
+        "TailwindCSS",
+        "node-cache",
+        "express",
+        "groq-sdk"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "senpai-gpt.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/alwaysahad/SenpaiGPT",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/senpaiGPT.png",
+      video:
+        "",
+    },
+    {
+      title: "Den-Den-Mushi",
+      href: "https://caribou-app.vercel.app/",
+      dates: "August 2025 - present",
+      active: true,
+      description:
+      "A real-time room-based chat app.",
+      technologies: [
+        "React.js",
+        "Typescript",
+        "Websockets",
+        "TailwindCSS"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://den-den-mushi-frontend.onrender.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/alwaysahad/Den-Den-Mushi",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/den-den-mushi.png",
+      video:
+      "",
+    },
+    {
+      title: "Caribou",
+      href: "https://caribou-app.vercel.app/",
+      dates: "April 2024 - May 2024",
+      active: true,
+      description:
+      "CRUD application for storing files online.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -105,127 +164,6 @@ export const DATA = {
       image: "/caribou.png",
       video:
         "",
-    },
-    // {
-    //   title: "Batch0",
-    //   href: "https://batch-0.vercel.app/",
-    //   dates: "April 2025",
-    //   active: true,
-    //   description:
-    //     "Connect with early users for your startup, easiest way to collect and manage beta user requests for your startup",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Shadcn UI"
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://batch-0.vercel.app/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/aayushk9/zerobatch",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/batch0.png",
-    //   video:
-    //     "",
-    // },
-    // {
-    //   title: "Wordbook",
-    //   href: "https://wordbook-one.vercel.app/",
-    //   dates: "April 2025",
-    //   active: true,
-    //   description:
-    //     "Learn a new word every day with context, examples and usecase. Build your vocabulary effortlessly with WordBook.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Shadcn UI"
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://wordbook-one.vercel.app/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/aayushk9/wordbook",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/wordbook.png",
-    //   video: "",
-    // },
-    // {
-    //   title: "Human Kind",
-    //   href: "https://humankind-space.vercel.app/",
-    //   dates: "April 2025",
-    //   active: true,
-    //   description:
-    //     "Human connection has features such as dailylogs, gratitude, knowledge and zen",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Shadcn UI"
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://humankind-space.vercel.app/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/aayushk9/humankind",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/kind.png",
-    //   video: "",
-    // },
-    // {
-    //   title: "BigBrain",
-    //   href: "https://bigbrain-bb.vercel.app/",
-    //   dates: "March 2025",
-    //   active: true,
-    //   description:
-    //     "BigBrain helps you find research papers, crypto whitepapers and the latest news on crypto and startups.",
-    //   technologies: [
-    //     "React.js",
-    //     "Express",
-    //     "MongoDB",
-    //     "Node.js",
-    //     "TailwindCSS",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://bigbrain-bb.vercel.app/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/aayushk9/BigBrain",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/bigb.png",
-    //   video:
-    //     "",
-    // },
+    }
   ],
 } as const;
