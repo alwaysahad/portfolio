@@ -13,7 +13,7 @@ export const DATA = {
     
   If you're into tech, anime, caffeine-fueled rants, or existential startup thoughts at 2am — say hi on [x.com](https://x.com/alwaysahad).  
   I'll probably reply faster than ChatGPT on a fiber connection.`,
-        
+
 
   avatarUrl: "/img.jpg",
   skills: [
@@ -58,12 +58,12 @@ export const DATA = {
         name: "Send Email",
         url: "#",
         icon: Icons.email,
-        
+
         navbar: false,
       },
     },
   },
-  resumeUrl: "https://drive.google.com/file/d/1hNaKXEYvfD7oHlkCcoTeqiIsZhMVs7rt/view?usp=sharing", 
+  resumeUrl: "https://drive.google.com/file/d/1hNaKXEYvfD7oHlkCcoTeqiIsZhMVs7rt/view?usp=sharing",
   education: [
     {
       school: "Dr. A.P.J. Abdul Kalam Technical University",
@@ -78,7 +78,7 @@ export const DATA = {
     {
       title: "SenpaiGpt",
       href: "https://senpai-gpt.vercel.app/",
-      dates: "September 2025 - present",
+      dates: "September 2024 - present",
       active: true,
       description:
         "AI-powered chatbot application that uses Web Search.",
@@ -111,7 +111,7 @@ export const DATA = {
       dates: "August '25",
       active: true,
       description:
-      "A real-time room-based chat app.",
+        "A real-time room-based chat app.",
       technologies: [
         "React.js",
         "Typescript",
@@ -132,7 +132,7 @@ export const DATA = {
       ],
       image: "/den-den-mushi.png",
       video:
-      "",
+        "",
     },
     {
       title: "Dapp",
@@ -140,7 +140,7 @@ export const DATA = {
       dates: "April 2025 - April 2025",
       active: true,
       description:
-      "This is a starter project for building a dapp on the Solana blockchain.",
+        "This is a starter project for building a dapp on the Solana blockchain.",
       technologies: [
         "React.js",
         "TailwindCSS",
@@ -167,7 +167,7 @@ export const DATA = {
       dates: "April 2024 - May 2024",
       active: true,
       description:
-      "CRUD application for storing files online.",
+        "CRUD application for storing files online.",
       technologies: [
         "Next.js",
         "Typescript",
