@@ -8,10 +8,8 @@ export const DATA = {
   location: "India",
   locationLink: "",
   description:
-    "22 year old developer",
-  summary: `I write code like it's fanfiction for servers, read startup blogs like they're gossip columns, brew coffee strong enough to wake Saitama, and religiously follow the adventures of a stretchy pirate and his overpowered crew.  
-    
-  If you're into tech, anime, caffeine-fueled rants, or existential startup thoughts at 2am — say hi on [x.com](https://x.com/alwaysahad).  
+    "23 year old developer",
+  summary: `If you're into tech, anime, caffeine-fueled rants, or existential startup thoughts at 2am — say hi on [x.com](https://x.com/alwaysahad).  
   I'll probably reply faster than ChatGPT on a fiber connection.`,
 
 
@@ -75,6 +73,36 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Businezz",
+      href: "https://businezz-seven.vercel.app/",
+      dates: "January 2024 - present",
+      active: true,
+      description:
+        "A modern, cloud-powered invoice generator application designed for small businesses and freelancers.",
+      technologies: [
+        "TypeScript",
+        "JavaScript",
+        "TailwindCSS",
+        "Supabase",
+        "PLpgSQL"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://businezz-seven.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/alwaysahad/Businezz",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Businezz.png",
+      video:
+        "",
+    },
     {
       title: "SenpaiGpt",
       href: "https://senpai-gpt.vercel.app/",
